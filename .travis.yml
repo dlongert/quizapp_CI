@@ -1,0 +1,7 @@
+language: python
+python:
+  - "3.9"
+install:
+  - pip install pandas==2.0.0
+script:
+  - python test_suite_quizapp.py
